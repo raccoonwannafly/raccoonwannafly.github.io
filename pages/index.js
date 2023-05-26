@@ -55,7 +55,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#">
+                  href="https://github.com/raccoonwannafly/raccoonwannafly.github.io/blob/dc5059d5eda2e192a205c92f6f9d08aec3de0b02/public/Resume%20-%20Nguyen%20Cong%20Tai.pdf" target="_blank" rel="noreferrer">
                   Resume
                 </a>
               </li>
