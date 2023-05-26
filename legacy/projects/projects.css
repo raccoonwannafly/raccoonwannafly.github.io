@@ -1,0 +1,59 @@
+.showcase {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, minmax(100px, 10rem));
+    row-gap: 1rem;
+    /* place-content: center; */
+    place-items: center;
+}
+
+.showcase > * {
+    transition: all .2s ease-in-out;
+}
+
+img {
+    max-width: 20rem;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+img:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+h1 {
+    margin: 0 2rem;
+}
+
+.project-1  {
+    grid-column: span 2;
+    grid-row: span 2;
+
+}
+
+.project-1-info  {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.project-2-info {
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.project-2 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+
+/* .showcase * {
+    border: 1px solid black;
+} */
+
+/* .showcase-info {
+    grid-column: span 3;
+} */

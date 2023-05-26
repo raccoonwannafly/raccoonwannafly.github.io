@@ -1,0 +1,58 @@
+.about-info {
+    margin: 1rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr minmax(100px, 1fr);
+    row-gap: 3.2rem;
+    grid-template-rows: 13rem repeat(auto-flow, 1fr);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+.about-info p {
+    font-size: .8rem;
+}
+
+.about-info div {
+    padding-right: 1rem;
+}
+
+.about-info > *{
+    /* border: 1px dashed black; */
+}
+
+.about-info img {
+    width: 100%;
+    min-height: 10rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.personal-info, .work, .currently {
+    position: relative;
+}
+
+.about-info > div::after {
+    position: absolute;
+    bottom: -3rem;
+    content: '';
+    height: 3px;
+    width: 200%;
+    transform: scale(1);
+    background: grey;
+}
+
+.currently a, .final a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(118, 29, 214);
+}
+
+.currently a:hover, .final a:hover {
+    text-decoration: underline;
+}
+
+.final:after {
+    display: none;
+}
