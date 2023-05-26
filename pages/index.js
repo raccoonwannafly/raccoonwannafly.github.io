@@ -8,9 +8,9 @@ import {
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { useState } from 'react';
 import portrait from '../public/personal-portrait.png';
-import yt_clone from '../public/projects/yt-clone-full.PNG';
-import saas_landing_page from '../public/projects/saas-full.PNG';
-import ecommerce from '../public/projects/ecommerce-full.PNG';
+import yt_clone from '../public/projects/yt-clone-full.png';
+import saas_landing_page from '../public/projects/saas-full.png';
+import ecommerce from '../public/projects/ecommerce-full.png';
 import coffee_laptop from '../public/coffee-laptop.jpg';
 import code from '../public/code.png';
 import design from '../public/design.png';
